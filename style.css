@@ -10,12 +10,26 @@
   margin-bottom: 92px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 .lead__title {
   margin: 56px auto 32px;
-  min-height: 200px;
-  width: 720px;
+  max-width: 720px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -25,10 +39,17 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 767px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 48px auto 16px;
+  }
+}
+
 .lead__subtitle {
   margin: 0 auto 64px;
-  min-height: 72px;
-  width: 640px;
+  max-width: 640px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -38,21 +59,43 @@
   color: #ffffff;
 }
 
-.lead__image-place {
-  display: flex;
-  flex-direction: column;
-  width: 984px;
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto 40px;
+  }
 }
 
 .lead__image {
   background-image: url('./images/lead__image.png');
   max-width: 984px;
   min-height: 615px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__image {
+    min-height: 580px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    min-height: 200px;
+  }
 }
 
 .lead__caption {
-  width: 158px;
-  min-height: 14px;
+  max-width: 158px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -62,6 +105,18 @@
   text-transform: uppercase;
   color: #ffffff;
   margin: 8px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }
 
 .intro {
