@@ -16,6 +16,7 @@
   .places {
     margin-right: 24px;
     margin-left: 24px;
+    gap: 73px;
   }
 }
 
@@ -23,5 +24,6 @@
   .places {
     margin-right: 0;
     margin-left: 0;
+    gap: 50px;
   }
 }
