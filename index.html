@@ -11,19 +11,19 @@
     <div class="page">
       <header class="header">
         <img class="header__logo" src="./images/header__logo.png" alt="Логотип организации" />
-        <div class="header__lang-links">
-          <a class="header__lang-link header__lang-link_select_ru">Ru</a>
-          <a class="header__lang-link">En</a>
-        </div>
+        <ul class="header__lang-links">
+          <li><a class="header__lang-link header__lang-link_active">Ru</a></li>
+          <li><a class="header__lang-link">En</a></li>
+        </ul>
       </header>
       <main>
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <div class="lead__image-place">
-            <div class="lead__image"></div>
-            <p class="lead__caption">ваша полка — верхняя</p>
-          </div>
+          <figure class="lead__image-place">
+            <img class="lead__image" src="./images/lead__image.png" alt="Изображение девушки, спящей на нижней полке в поезде"></img>
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -38,62 +38,26 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li class="intro__item">Часовых поясов 11</li>
-            <li class="intro__item">Объектов природного наследия ЮНЕСКО 12</li>
-            <li class="intro__item">Объектов культурного наследия ЮНЕСКО 16</li>
-            <li class="intro__item">Природных заповедников 105</li>
-            <li class="intro__item">Аэропортов 241</li>
+            <li class="intro__item">Часовых поясов <span class="intro__item-accent">11</span></li>
+            <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__item-accent">12</span></li>
+            <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__item-accent">16</span></li>
+            <li class="intro__item">Природных заповедников <span class="intro__item-accent">105</span></li>
+            <li class="intro__item">Аэропортов <span class="intro__item-accent">241</span></li>
           </ul>
         </section>
         <section class="photo-grid">
-          <img
-            src="./images/view-from-train.png"
-            class="photo-grid__item"
-            alt="Вид из окна поезда"
-          />
-          <img
-            src="./images/photo-grid-atharva-tulsi.jpg"
-            class="photo-grid__item"
-            alt="Снежные горы"
-          />
+          <img src="./images/view-from-train.png" class="photo-grid__item" alt="Вид из окна поезда"/>
+          <img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt="Снежные горы">
           <img src="./images/photo-grid-tuman.jpg" class="photo-grid__item" alt="Волк в тумане" />
-          <img
-            src="./images/photo-grid-sochi.jpg"
-            class="photo-grid__item"
-            alt="Деревья в тумане"
-          />
+          <img src="./images/photo-grid-sochi.jpg" class="photo-grid__item" alt="Деревья в тумане"/>
           <img src="./images/photo-grid-arisa.jpg" class="photo-grid__item" alt="Шины на льду" />
-          <img
-            src="./images/photo-grid-baikal.jpg"
-            class="photo-grid__item"
-            alt="Пляж с видом на горы"
-          />
-          <img
-            src="./images/photo-grid-elbrus.jpg"
-            class="photo-grid__item"
-            alt="Изображение гор"
-          />
-          <img
-            src="./images/photo-grid-kondratiev.jpg"
-            class="photo-grid__item"
-            alt="Знак пешеходного перехода"
-          />
-          <img
-            src="./images/photo-grid-kamchatka-1.jpg"
-            class="photo-grid__item"
-            alt="Горы на Камчатке"
-          />
-          <img
-            src="./images/photo-grid-kamchatka-2.jpg"
-            class="photo-grid__item"
-            alt="Вид на горы"
-          />
+          <img src="./images/photo-grid-baikal.jpg" class="photo-grid__item" alt="Пляж с видом на горы"/>
+          <img src="./images/photo-grid-elbrus.jpg" class="photo-grid__item" alt="Изображение гор"/>
+          <img src="./images/photo-grid-kondratiev.jpg" class="photo-grid__item" alt="Знак пешеходного перехода"/>
+          <img src="./images/photo-grid-kamchatka-1.jpg" class="photo-grid__item" alt="Горы на Камчатке"/>
+          <img src="./images/photo-grid-kamchatka-2.jpg" class="photo-grid__item" alt="Вид на горы"/>
           <img src="./images/photo-grid-baikal-2.jpg" class="photo-grid__item" alt="Горы с морем" />
-          <img
-            src="./images/photo-grid-ergaki.jpg"
-            class="photo-grid__item"
-            alt="ВИд на горы в тумане"
-          />
+          <img src="./images/photo-grid-ergaki.jpg" class="photo-grid__item" alt="Вид на горы в тумане">
         </section>
         <section class="places">
           <article class="place">
