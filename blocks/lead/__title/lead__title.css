@@ -10,6 +10,18 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 1279px) {
+  .lead__title {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__title {
+    margin-top: 48px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .lead__title {
     font-size: 40px;

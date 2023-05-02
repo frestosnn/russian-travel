@@ -10,6 +10,18 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    margin: 0 auto 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__subtitle {
+    margin: 0 auto 56px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .lead__subtitle {
     font-size: 16px;

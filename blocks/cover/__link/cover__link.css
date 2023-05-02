@@ -2,8 +2,7 @@
   max-width: 1184px;
   min-height: 740px;
   text-decoration: none;
-  background: linear-gradient(0deg, rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.8)),
-    url('../../../images/cover-trains.jpg');
+  background-image: url('../../../images/cover-trains.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
